@@ -42,7 +42,7 @@
         </nav>
 
         <!-- Main Image & Content -->
-        <img src="{{ url_for('static', filename='images/contact main.png') }}" alt="congregation" style="width:100%; height:600px">
+        <img src="{{ url_for('static', filename='images/contact main.png') }}" alt="congregation" style="width:100%; height:5%">
         <!-- End -->
 
 
@@ -54,20 +54,9 @@
         <!-- End Heading -->
 
 
-        <div id="map"></div>
-
-
-        <script>
-            function initMap() {
-                var location = {lat: -25.363, lng: 131.044};
-                var map = new google.maps.Map(document.getElementById("map"), {
-                    zoom: 4,
-                    center: location
-                });
-        </script>
-
-
-
+        <div class="container-fluid d-flex justify-content-center">
+        <img src="{{ url_for('static', filename='images/address map.png') }}" alt="church map" style="width:50%; height: 50%">
+        </div>
 
 
 
