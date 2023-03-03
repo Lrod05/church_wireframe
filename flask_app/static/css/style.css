@@ -1,4 +1,9 @@
-img {
-    height: 900px;
-    width: 100%;
+.h2, .h1 {
+    font-family: "Times New Roman", Arial;
 }
+
+
+h3 {
+    font-family: "Times New Roman", Arial;
+}
+
